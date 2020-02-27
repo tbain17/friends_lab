@@ -83,7 +83,7 @@ class TestFriends < MiniTest::Test
 
   # 3. For a given person, check if they like a particular food
 def test_fav_food
-  result = fav_food(@person4, "Scooby snacks")
+  result = fav_food(@person4, "spaghetti")
   assert_equal(true, result)
 end
 

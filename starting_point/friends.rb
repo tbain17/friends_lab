@@ -7,7 +7,7 @@ def fav_tv(person)
 end
 
 def fav_food(person, snack)
-  if person[:favourites][:snacks] = snack
+  if person[:favourites][:snacks].include?(snack)
     return true
   else
     return false
